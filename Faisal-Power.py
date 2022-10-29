@@ -91,23 +91,17 @@ def main():
     os.system("clear")
 
     print logo
-
-    print("")
-
-    print("\033[0;97m( Cloning Main Menu )").center(50)
-
-logo = """ 
-
-\033[1;97m  
-
-\033[1;93m    
-
-\033[1;93m            ______    _           _ 
+                      ______    _           _ 
                      |  ____|  (_)         | |
                      | |__ __ _ _ ___  __ _| |
                      |  __/ _` | / __|/ _` | |
                      | | | (_| | \__ \ (_| | |
                      |_|  \__,_|_|___/\__,_|_|
+
+    print("")
+
+    print("\033[0;97m( Cloning Main Menu )").center(50)
+
     print("") 
 
     print("\033[1;97m(1)\033[1;91m -> \033[1;93mClone Public ID (Fast)")
